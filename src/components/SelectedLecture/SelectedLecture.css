@@ -1,0 +1,41 @@
+.selectedlecture {
+  margin-left: 30%;
+  margin-top: 5rem;
+  width: 40%;
+}
+
+.selectedlecture-firstwrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.selectedlecture-button {
+  border: 0px solid;
+  border-radius: 4px;
+  font-size: large;
+  padding: 0.5rem 1rem;
+  background-color: #ff4c3f;
+  cursor: pointer;
+  transition: all ease-in-out 0.2s;
+  color: white;
+}
+
+.selectedlecture-button:hover {
+  background-color: #f51f0f;
+}
+
+.selectedlecture-date {
+  color: rgb(68, 68, 68);
+  font-size: smaller;
+}
+
+.modal-warning {
+  color: rgb(244, 30, 30);
+}
+
+.modal-button-delete {
+  position: absolute;
+  left: 7rem;
+}
